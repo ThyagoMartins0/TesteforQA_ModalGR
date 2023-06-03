@@ -22,7 +22,7 @@ public class Teste01 {
         valorPrato = Math.abs(valorPrato);
 
 
-        // Saida de informações
+        // Dados do recibo
         System.out.println("------------------ Recibo ---------------");
         System.out.println("O valor do quilo e de: R$"+ valorQuilo);
         System.out.println("A tara do prato é de: "+ taraPrato +"Kg");
