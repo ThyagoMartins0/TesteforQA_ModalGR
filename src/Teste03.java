@@ -27,8 +27,15 @@ public class Teste03 {
         }
 
         // Converter as listas em vetores
-        int[] vetorImpares = listaImpares.stream().mapToInt(Integer::intValue).toArray();
-        int[] vetorRestoDivisao = listaRestoDivisao.stream().mapToInt(Integer::intValue).toArray();
+        int[] vetorImpares = new int[listaImpares.size()];
+        for (int i = 0; i < listaImpares.size(); i++) {
+            vetorImpares[i] = listaImpares.get(i);
+        }
+
+        int[] vetorRestoDivisao = new int[listaRestoDivisao.size()];
+        for (int i = 0; i < listaRestoDivisao.size(); i++) {
+            vetorRestoDivisao[i] = listaRestoDivisao.get(i);
+        }
 
         // Exibir os valores dos vetores
         System.out.println("Vetor de números ímpares: " + arrayToString(vetorImpares));
