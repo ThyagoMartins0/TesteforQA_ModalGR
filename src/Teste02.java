@@ -10,7 +10,7 @@ public class Teste02 {
 
         int contador = contarLetrasa(palavra);
 
-        System.out.println("Quantidade de letras \"a\" minúscula: " + contador);
+        System.out.println("A Quantidade de letras 'a' em minúsculo são : " + contador);
     }
 
     //Contador de "a"
